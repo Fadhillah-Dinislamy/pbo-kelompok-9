@@ -9,10 +9,10 @@ public class Praktikum {
         System.out.println("Hello World!");
 
         // Menampilkan nama
-        System.out.println("Fadhillah Dinislamy");
+        System.out.println("Naufa Alya Nafisa");
 
         int umur = 19;
-        String nama = "Fadhillah Dinislamy";
+        String nama = "Naufa Alya Nafisa";
 
         System.out.println("Nama saya : " + nama);
         System.out.println("Umur : " + umur);
