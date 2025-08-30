@@ -11,7 +11,7 @@ package com.mycompany.praktikum_1;
 
 public class Praktikum_1 {
     public static void main(String[] args) {
-        System.out.println("Nama saya Fadhillah Dinislamy");
-        System.out.println("Nim saya 2407112891");
+        System.out.println("Nama saya Naufa Alya Nafisa");
+        System.out.println("Nim saya 240712692");
     }
 }
