@@ -7,11 +7,11 @@ public class Praktikum2 {
     public static final String Universitas = "Universitas Riau";
     public static void main(String[] args) {
         // Data Mahasiswa
-        String nama = "Muhammad Fariel Gifari", alamat = "Taman Karya";
+        String nama = "Naufa Alya Nafisa", alamat = "Taman Karya";
         int umur = 19;
         double[] ipSemester = {3.5, 3.7, 3.8, 3.6}; // Array IP tiap semester
         char golonganDarah = 'O';
-        String nim = "2407127428";
+        String nim = "2407126391";
 
         // Menampilkan data
         System.out.println("Universitas   : " + Universitas);
