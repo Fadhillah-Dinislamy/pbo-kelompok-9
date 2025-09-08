@@ -61,9 +61,9 @@ public class Main {
         System.out.println();
         
         // Output Printf
-        String nama = "Fadhillah";
+        String nama = "Upaa";
         int umur = 19; 
-        double tinggi = 166.0;
+        double tinggi = 150.5;
         System.out.printf("Nama saya %s, umur %d, tinggi %.1f cm%n", nama, umur, tinggi); 
 
         // Input Menggunakan Scanner
