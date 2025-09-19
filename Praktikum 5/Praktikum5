@@ -1,0 +1,53 @@
+class Mobil {
+    String merk;
+    String warna;
+    int tahunkeluar;
+
+    public void panaskanMobil(){
+        System.out.println("Mobil sedang dipanaskan");
+    }
+
+    public Mobil() {
+        this.merk = "Unknown";
+        this.warna = "Putih";
+        this.tahunkeluar = 2010;
+    }
+
+    public Mobil(String merk, String warna, int tahunkeluar) {
+        this.merk = merk;
+        this.warna = warna;
+        this.tahunkeluar = tahunkeluar;
+    }
+}
+
+class Kalkulator {
+    public int tambah(int a, int b) {
+        return a + b;
+    }
+    public double tambah(double a, double b){
+        return a + b;
+    }
+}
+
+abstract class Hewan {
+    String nama;
+    Hewan(String nama){
+        this.nama = nama;
+    }
+    abstract void suara();
+    void info(){
+        System.out.println("Nama hewan : " + this.nama);
+    }
+}
+
+public class Praktikum5 {
+    public static void main(String[] args) {
+        Mobil mobilSaya = new Mobil("Toyota", "Merah", 2025);
+        Mobil mobilKedua = new Mobil("Alphard", "Hitam", 2020);
+        Mobil mobilKetiga = new Mobil();
+
+        Kalkulator cal = new Kalkulator();
+        System.out.println("1 + 10 = " + cal.tambah(1, 10));
+        System.out.println("2.4 + 3.3 = " + cal.tambah(2.4, 3.3));
+    }
+}
