@@ -1,0 +1,47 @@
+class Jam {
+     String merk;
+     String tipe;
+     int harga;
+
+    public Jam() {
+        this.merk = "Tidak diketahui";
+        this.tipe = "Tidak diketahui";
+        this.harga = 0;
+    }
+
+    public Jam(String merk, String tipe, int harga) {
+        this.merk = merk;
+        this.tipe = tipe;
+        this.harga = harga;
+    }
+
+    public void tampilkanInfo() {
+        System.out.println("Merk  : " + merk);
+        System.out.println("Tipe  : " + tipe);
+        System.out.println("Harga : Rp" + harga);
+    }
+
+    public void tampilkanInfo(String pesan) {
+        System.out.println(pesan);
+        System.out.println("Merk  : " + merk);
+        System.out.println("Tipe  : " + tipe);
+        System.out.println("Harga : Rp" + harga);
+    }
+}
+
+public class TugasPraktikum5 {
+    public static void main(String[] args) {
+        Jam jam1 = new Jam();
+        jam1.tampilkanInfo();
+
+        System.out.println();
+
+        Jam jam2 = new Jam("Seiko", "Automatic", 2500000);
+        jam2.tampilkanInfo();
+
+        System.out.println();
+
+        Jam jam3 = new Jam("Casio", "Digital", 750000);
+        jam3.tampilkanInfo("Promo Spesial Hari Ini!");
+    }
+}
