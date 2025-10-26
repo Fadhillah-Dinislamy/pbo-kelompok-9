@@ -1,0 +1,19 @@
+package com.mycompany.main;
+
+import javax.swing.*;
+
+public class Main {
+    public static void main(String[] args) {
+        JFrame frame = new JFrame("");
+        frame.setSize(500,500);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
+        frame.setLocationRelativeTo(null);
+
+        JLabel label = new JLabel("username");
+        frame.add(label);
+
+        JTextField field = new JTextField(20);
+        frame.add(field);
+    }
+}
